@@ -4,7 +4,7 @@ A 3D neural network based algorithm for volumetric segmentation of 3D medical im
 
 # Model Overview
 
-This model is trained using the state-of-the-art algorithm [1] of the "Brain Tumor Segmentation (BraTS) Challenge 2018".
+This model is trained using the SOTA res-UNet with deep supervision 
 
 ## Training configuration
 
