@@ -1,0 +1,500 @@
+{
+    "labels": {
+        "0": "background",
+        "1": "lesion"
+    },
+    "modality": {
+        "image": "CT",
+        "image2": "PET"
+    },
+    "testing": [
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4546_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4546_0000.nii.gz",
+            "label": "labelsTs/petlymph_4546.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4550_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4550_0000.nii.gz",
+            "label": "labelsTs/petlymph_4550.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4556_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4556_0000.nii.gz",
+            "label": "labelsTs/petlymph_4556.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4644_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4644_0000.nii.gz",
+            "label": "labelsTs/petlymph_4644.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4660_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4660_0000.nii.gz",
+            "label": "labelsTs/petlymph_4660.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4672_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4672_0000.nii.gz",
+            "label": "labelsTs/petlymph_4672.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4682_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4682_0000.nii.gz",
+            "label": "labelsTs/petlymph_4682.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4696_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4696_0000.nii.gz",
+            "label": "labelsTs/petlymph_4696.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4704_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4704_0000.nii.gz",
+            "label": "labelsTs/petlymph_4704.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4712_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4712_0000.nii.gz",
+            "label": "labelsTs/petlymph_4712.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4726_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4726_0000.nii.gz",
+            "label": "labelsTs/petlymph_4726.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4748_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4748_0000.nii.gz",
+            "label": "labelsTs/petlymph_4748.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4760_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4760_0000.nii.gz",
+            "label": "labelsTs/petlymph_4760.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4766_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4766_0000.nii.gz",
+            "label": "labelsTs/petlymph_4766.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTs/petlymph_4782_0001.nii.gz",
+            "image2": "imagesTs/petlymph_4782_0000.nii.gz",
+            "label": "labelsTs/petlymph_4782.nii.gz"
+        }
+    ],
+    "training": [
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4542_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4542_0000.nii.gz",
+            "label": "labelsTr/petlymph_4542.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4544_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4544_0000.nii.gz",
+            "label": "labelsTr/petlymph_4544.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4548_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4548_0000.nii.gz",
+            "label": "labelsTr/petlymph_4548.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4552_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4552_0000.nii.gz",
+            "label": "labelsTr/petlymph_4552.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4554_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4554_0000.nii.gz",
+            "label": "labelsTr/petlymph_4554.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4558_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4558_0000.nii.gz",
+            "label": "labelsTr/petlymph_4558.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4560_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4560_0000.nii.gz",
+            "label": "labelsTr/petlymph_4560.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4642_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4642_0000.nii.gz",
+            "label": "labelsTr/petlymph_4642.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4646_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4646_0000.nii.gz",
+            "label": "labelsTr/petlymph_4646.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4648_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4648_0000.nii.gz",
+            "label": "labelsTr/petlymph_4648.nii.gz"
+        },
+        {
+            "fold": 0,
+            "image": "imagesTr/petlymph_4650_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4650_0000.nii.gz",
+            "label": "labelsTr/petlymph_4650.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4652_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4652_0000.nii.gz",
+            "label": "labelsTr/petlymph_4652.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4654_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4654_0000.nii.gz",
+            "label": "labelsTr/petlymph_4654.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4656_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4656_0000.nii.gz",
+            "label": "labelsTr/petlymph_4656.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4658_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4658_0000.nii.gz",
+            "label": "labelsTr/petlymph_4658.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4662_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4662_0000.nii.gz",
+            "label": "labelsTr/petlymph_4662.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4664_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4664_0000.nii.gz",
+            "label": "labelsTr/petlymph_4664.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4666_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4666_0000.nii.gz",
+            "label": "labelsTr/petlymph_4666.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4668_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4668_0000.nii.gz",
+            "label": "labelsTr/petlymph_4668.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4670_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4670_0000.nii.gz",
+            "label": "labelsTr/petlymph_4670.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4674_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4674_0000.nii.gz",
+            "label": "labelsTr/petlymph_4674.nii.gz"
+        },
+        {
+            "fold": 1,
+            "image": "imagesTr/petlymph_4676_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4676_0000.nii.gz",
+            "label": "labelsTr/petlymph_4676.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4678_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4678_0000.nii.gz",
+            "label": "labelsTr/petlymph_4678.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4680_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4680_0000.nii.gz",
+            "label": "labelsTr/petlymph_4680.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4684_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4684_0000.nii.gz",
+            "label": "labelsTr/petlymph_4684.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4686_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4686_0000.nii.gz",
+            "label": "labelsTr/petlymph_4686.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4688_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4688_0000.nii.gz",
+            "label": "labelsTr/petlymph_4688.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4690_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4690_0000.nii.gz",
+            "label": "labelsTr/petlymph_4690.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4692_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4692_0000.nii.gz",
+            "label": "labelsTr/petlymph_4692.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4698_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4698_0000.nii.gz",
+            "label": "labelsTr/petlymph_4698.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4700_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4700_0000.nii.gz",
+            "label": "labelsTr/petlymph_4700.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4702_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4702_0000.nii.gz",
+            "label": "labelsTr/petlymph_4702.nii.gz"
+        },
+        {
+            "fold": 2,
+            "image": "imagesTr/petlymph_4706_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4706_0000.nii.gz",
+            "label": "labelsTr/petlymph_4706.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4708_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4708_0000.nii.gz",
+            "label": "labelsTr/petlymph_4708.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4710_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4710_0000.nii.gz",
+            "label": "labelsTr/petlymph_4710.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4714_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4714_0000.nii.gz",
+            "label": "labelsTr/petlymph_4714.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4716_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4716_0000.nii.gz",
+            "label": "labelsTr/petlymph_4716.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4718_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4718_0000.nii.gz",
+            "label": "labelsTr/petlymph_4718.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4722_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4722_0000.nii.gz",
+            "label": "labelsTr/petlymph_4722.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4724_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4724_0000.nii.gz",
+            "label": "labelsTr/petlymph_4724.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4728_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4728_0000.nii.gz",
+            "label": "labelsTr/petlymph_4728.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4730_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4730_0000.nii.gz",
+            "label": "labelsTr/petlymph_4730.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4732_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4732_0000.nii.gz",
+            "label": "labelsTr/petlymph_4732.nii.gz"
+        },
+        {
+            "fold": 3,
+            "image": "imagesTr/petlymph_4734_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4734_0000.nii.gz",
+            "label": "labelsTr/petlymph_4734.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4736_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4736_0000.nii.gz",
+            "label": "labelsTr/petlymph_4736.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4738_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4738_0000.nii.gz",
+            "label": "labelsTr/petlymph_4738.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4740_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4740_0000.nii.gz",
+            "label": "labelsTr/petlymph_4740.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4742_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4742_0000.nii.gz",
+            "label": "labelsTr/petlymph_4742.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4744_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4744_0000.nii.gz",
+            "label": "labelsTr/petlymph_4744.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4746_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4746_0000.nii.gz",
+            "label": "labelsTr/petlymph_4746.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4750_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4750_0000.nii.gz",
+            "label": "labelsTr/petlymph_4750.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4752_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4752_0000.nii.gz",
+            "label": "labelsTr/petlymph_4752.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4754_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4754_0000.nii.gz",
+            "label": "labelsTr/petlymph_4754.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4756_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4756_0000.nii.gz",
+            "label": "labelsTr/petlymph_4756.nii.gz"
+        },
+        {
+            "fold": 4,
+            "image": "imagesTr/petlymph_4758_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4758_0000.nii.gz",
+            "label": "labelsTr/petlymph_4758.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4762_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4762_0000.nii.gz",
+            "label": "labelsTr/petlymph_4762.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4764_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4764_0000.nii.gz",
+            "label": "labelsTr/petlymph_4764.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4768_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4768_0000.nii.gz",
+            "label": "labelsTr/petlymph_4768.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4770_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4770_0000.nii.gz",
+            "label": "labelsTr/petlymph_4770.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4772_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4772_0000.nii.gz",
+            "label": "labelsTr/petlymph_4772.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4774_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4774_0000.nii.gz",
+            "label": "labelsTr/petlymph_4774.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4776_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4776_0000.nii.gz",
+            "label": "labelsTr/petlymph_4776.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4778_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4778_0000.nii.gz",
+            "label": "labelsTr/petlymph_4778.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4780_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4780_0000.nii.gz",
+            "label": "labelsTr/petlymph_4780.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4784_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4784_0000.nii.gz",
+            "label": "labelsTr/petlymph_4784.nii.gz"
+        },
+        {
+            "fold": 5,
+            "image": "imagesTr/petlymph_4786_0001.nii.gz",
+            "image2": "imagesTr/petlymph_4786_0000.nii.gz",
+            "label": "labelsTr/petlymph_4786.nii.gz"
+        }
+    ]
+}

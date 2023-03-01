@@ -1,0 +1,56 @@
+_meta_: {}
+modality: ct
+data_file_base_dir: /UserData/Xin/Monai_Auto3dSeg/PET_lymph_baseline/data
+data_list_file_path: /UserData/Xin/Monai_Auto3dSeg/PET_lymph_baseline/folds.json
+input_channels: 2
+output_classes: 2
+class_names: [lesion]
+class_index: null
+quick: false
+roi_size: [192, 192, 192]
+crop_mode: ratio
+normalize_mode: range
+amp: true
+bundle_root: /UserData/Xin/Monai_Auto3dSeg/PET_lymph_baseline/work_dir/segresnet_0
+ckpt_path: $@bundle_root + '/model'
+ckpt_save: true
+cache_rate: null
+determ: false
+fold: 0
+learning_rate: 0.0002
+batch_size: $@num_images_per_batch
+num_images_per_batch: 1 # does not matter 
+num_epochs: 150
+num_warmup_epochs: 3
+sigmoid: false
+resample: true
+resample_resolution: [2.0, 2.0, 2.0]
+intensity_bounds: [1.1042365510069376, 15.981007478242232]
+num_epochs_per_validation: 1
+num_epochs_per_saving: 1
+num_workers: 6 
+loss: {_target_: DiceCELoss, include_background: true, squared_pred: true, smooth_nr: 0,
+  smooth_dr: 1.0e-05, softmax: $not @sigmoid, sigmoid: $@sigmoid, to_onehot_y: $not
+    @sigmoid}
+optimizer: {_target_: torch.optim.AdamW, lr: '@learning_rate', weight_decay: 1.0e-05}
+network:
+  _target_: SegResNetDS
+  init_filters: 32
+  blocks_down: [1, 2, 2, 4, 4]
+  norm: INSTANCE
+  in_channels: '@input_channels'
+  out_channels: '@output_classes'
+  dsdepth: 4
+finetune: {enabled: false, ckpt_name: $@bundle_root + '/model/model.pt'}
+validate: {enabled: false, ckpt_name: $@bundle_root + '/model/model.pt', output_path: $@bundle_root
+    + '/prediction_validation', save_mask: true, invert: true}
+infer: {enabled: true, ckpt_name: $@bundle_root + '/model/model.pt', output_path: $@bundle_root
+    + '/prediction_' + @infer#data_list_key, data_list_key: testing}
+image_size: [200, 200, 400]
+warmup_epochs: 0
+spacing_lower: [2.942708361148834, 2.942708361148834, 2.7899999618530273]
+spacing_upper: [3.6458332538604736, 3.6458332538604736, 3.2700002193450928]
+name: lymph_baseline_segmentation
+task: segmentation
+multigpu: true
+extra_modalities: {image2: PET}
