@@ -1,1 +1,1 @@
-# Segment_PETlymphoma_Monai
+# Segment_PETlymphoma_MONAI
