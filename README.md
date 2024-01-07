@@ -1,1 +1,2 @@
-# PET Lymphoma Segmentation implemented in Monai
+# PET Lymphoma Segmentation implemented in MONAI
+
